@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:piecyfer_test/features/product/presentation/pages/image_detail.dart';
+import 'package:piecyfer_test/features/Image/presentation/pages/image_detail.dart';
 
 import '../../../../core/common/widgets/image_cache.dart';
 import '../../domain/entities/image.dart';

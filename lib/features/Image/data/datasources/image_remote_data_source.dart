@@ -1,8 +1,8 @@
 import 'dart:convert';
 import "package:http/http.dart" as http;
 import 'package:piecyfer_test/core/error/exceptions.dart';
-import 'package:piecyfer_test/features/product/data/models/image_model.dart';
-import 'package:piecyfer_test/features/product/domain/entities/image.dart';
+import 'package:piecyfer_test/features/Image/data/models/image_model.dart';
+import 'package:piecyfer_test/features/Image/domain/entities/image.dart';
 
 
 abstract class ImageRemoteDataSource {

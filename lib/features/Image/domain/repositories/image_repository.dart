@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:piecyfer_test/core/error/failures.dart';
-import 'package:piecyfer_test/features/product/domain/entities/image.dart';
+import 'package:piecyfer_test/features/Image/domain/entities/image.dart';
 
 
 abstract class ImageRepository {

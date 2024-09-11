@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'features/product/presentation/bloc/image_bloc.dart';
-import 'features/product/presentation/pages/home_screen.dart';
+
+import 'features/Image/presentation/bloc/image_bloc.dart';
+import 'features/Image/presentation/pages/home_screen.dart';
 import 'init_dependencies.dart';
 
 void main() async {
@@ -29,7 +30,7 @@ class _MyAppState extends State<MyApp> {
       minTextAdapt: true,
       builder: (context, child) {
         return BlocProvider(
-          create: (_) => serviceLocator<ImageBloc>()..add(FetchImages(query: '', limit: 20, page: 1)),
+          create: (_) => serviceLocator<ImageBloc>()..add(const FetchImages(query: '', limit: 20, page: 1)),
           child: MaterialApp(
             debugShowCheckedModeBanner: false,
             theme: ThemeData(

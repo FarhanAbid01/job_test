@@ -1,5 +1,5 @@
 
-import 'package:piecyfer_test/features/product/domain/entities/image.dart';
+import 'package:piecyfer_test/features/Image/domain/entities/image.dart';
 
 class ImageModel extends ImageEntity {
   ImageModel({
